@@ -1,0 +1,276 @@
+/* Desktop View */
+.number2 {
+  left: -30px;
+  top: 150px;
+}
+.showcase2-container .section-left{
+  padding: 10px 20px 10px 0px;
+}
+.showcase2-container .showcase .subcol-containers {
+  position: relative;
+  width: 30%;
+  left: 230px;
+  top: -20px;
+  margin: -100px 500px;
+}
+.section-title-span{
+  width: 50%;
+}
+.section-left3{
+  width: 359.98px;
+  height: 76.29px;
+}
+.showcase2-container .showcase .subcol-containers.txt-container{
+  position: relative;
+  width: 40% !important;
+  left: 230px !important;
+  top: -20px !important;
+  margin: -100px 350px !important;
+}
+.showcase2-container .showcase .subcol-containers .showcase1pic .img{
+  position: relative;
+  width: 150%;
+  left: -220px;
+  top: -200px;
+}
+.showcase2-container {
+  padding-top: 60px;
+  background-color: #ffffff;
+  width: 100%;
+  clear: both;
+}
+.showcase2-container div.showcase {
+  width: 80%;
+  margin: auto;
+  overflow: none;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  padding: 100px 0px;
+  margin-bottom: 60px;
+}
+.showcase2-container div.showcase .feature-text {
+  padding-top: 0px;
+  padding-left: 50px;
+}
+.showcase2-container div.showcase .showdowImage {
+  position: relative !important;
+  top: -50px !important;
+  margin-left: 180px !important;
+  width: 60%;
+}
+.showcase2-container div.showcase .showcase1pic {
+  margin: 0px 0px;
+}
+.showcase1pic.img{
+  position: relative;
+  width: 100% ;
+  margin-right: 0px; 
+  top: -200px;
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1370px) { 
+
+  .showcase1pic.img {
+    width: 120% !important;
+    top: -170px;
+    left: 100px;
+  }
+  .showcase2-container div.showcase .showdowImage {
+    width: 80%;
+  }
+  .number2 {
+    left: 10px;
+  }
+}
+/* Tab View - 769px */
+@media only screen and (min-width: 765px) and (max-width: 980px) {
+  
+  .section-title{
+    width: 406.07px;
+    left: 398.92px;
+    top: 486.26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+  }
+  .showcase2-container .section-left{
+    width: 325.02px;
+    height: 76.29px;
+    left: 398.92px;
+    top: 568.52px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #000000;
+ }
+  .showcase2-container div.showcase {
+    float: right;
+ }
+  .showcase2-container .showcase .subcol-containers {
+    left: 300px;
+ }
+  .showcase2-container {
+    padding-top: 120px;
+  }
+  .number2 {
+    left: 125px;
+    top: 90px;
+  }
+  .showcase2-container .section-left {
+    padding: 10px 20px 10px 0px;
+  }
+  .mobfeaturetext{
+    margin-top: 0px;
+  }
+  .showcase2-container .showcase .subcol-containers.txt-container {
+    position: relative;
+    width: 45% !important;
+    left: 350px !important;
+  }
+  .showcase2-container div.showcase .showdowImage {
+    position: relative !important;
+    top: -100px !important;
+    margin-left: 350px !important;
+    width: 140%;
+  }
+  .showcase1pic.img {
+    position: relative;
+    width: 260% !important;
+    margin-right: 0px;
+    top: -230px;
+    left: 160px;
+  }
+  .showcase2-container {
+      padding-top: 120px;
+      width: 70%;
+  }
+  .showcase2-container div.showcase .feature-text {
+    padding-left: 80px;
+    padding-top: 0px;
+  }
+}
+
+/* Mobile View - 376px */
+@media only screen and (max-width: 767px){
+
+   .showdowImage{
+    display: none;
+   }
+   .showcase2-container div.showcase {
+    width: 80%;
+    padding: 120px 0px;
+    padding-bottom: 350px;
+  }
+
+  .showcase2-container .showcase .subcol-containers.txt-container {
+    position: relative;
+    width: 100% !important;
+    left: 350px !important;
+    top: 250px !important;
+    margin: -100px 350px !important;
+  }
+  .showcase2-container .showcase .subcol-containers {
+    position: relative;
+    width: 30%;
+    left: 230px;
+    top: -20px;
+    margin: -100px 500px;
+  }
+  .showcase1pic.img {
+    width: 400% !important; 
+    margin-right: 0px;
+    top: 50px;
+    left: 15px;
+  }
+  .section-title-span{
+    width: 295px;
+    height: 101px;
+    left: 369px;
+    top: 502px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .number2 {
+    left: 60px;
+    top: -35px;
+  }
+  .showcase2-container div.showcase .showcase1pic {
+    margin: 0px;
+  }
+  .mobfeaturetext{
+    padding-left: 0px;
+  }
+  .showcase2-container div.showcase .mobfeaturetext{
+    padding-left: 0px;
+  }
+  .section-left3{
+    width: 281px;
+    height: 159px;
+    left: 35px;
+    top: 555px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+  }
+  .section-title3{
+    width: 150.85px;
+    height: 91px;
+  }
+  .showcase2-container {
+    padding-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+@media only screen and (min-width: 318px) and (max-width: 360px) {
+
+  .section-left3{
+    width: 300.98px;
+  }
+  .navbar {
+    width: 100%;
+    margin: auto;
+  }
+  .footer-distributed {
+    margin: 2% 5%;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 764px) {
+  
+  .showcase2-container .showcase1pic.img {
+    width: 400px !important;
+  }
+  .section-title-span{
+    width: 350px;
+    height: 80px;
+    line-height: 44px;
+  }
+  .section-title3{
+    width: 350.85px;
+    height: 51px;
+  }
+  .section-left3{
+    width: 380px;
+  }
+  .try-it .login-btn{
+    margin: 3px 0px 20px 5px;
+  }
+  .number3 {
+    left: 120px;
+    top: 2450px;
+  }
+}

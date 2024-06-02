@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1667917735023" clover="3.2.0">
+  <project timestamp="1667917735024" name="All files">
+    <metrics statements="26" coveredstatements="26" conditionals="6" coveredconditionals="6" methods="11" coveredmethods="11" elements="43" coveredelements="43" complexity="0" loc="26" ncloc="26" packages="8" files="8" classes="8"/>
+    <package name="src">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.js" path="D:\React\React Programs\react-ui-challenge-proj\src\App.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.footer">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Footer.js" path="D:\React\React Programs\react-ui-challenge-proj\src\components\footer\Footer.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.home-container">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="HomeContainer.js" path="D:\React\React Programs\react-ui-challenge-proj\src\components\home-container\HomeContainer.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="45" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.home-container.showcase">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="ShowCase.js" path="D:\React\React Programs\react-ui-challenge-proj\src\components\home-container\showcase\ShowCase.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="12" count="17" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.home-container.showcase1-container">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Showcase1Container.js" path="D:\React\React Programs\react-ui-challenge-proj\src\components\home-container\showcase1-container\Showcase1Container.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.home-container.showcase2-container">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Showcase2Container.js" path="D:\React\React Programs\react-ui-challenge-proj\src\components\home-container\showcase2-container\Showcase2Container.js">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.top-menu">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="TopMenu.js" path="D:\React\React Programs\react-ui-challenge-proj\src\components\top-menu\TopMenu.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="45" count="30" type="stmt"/>
+        <line num="62" count="30" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.top-menu.navbar">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="NavBar.js" path="D:\React\React Programs\react-ui-challenge-proj\src\components\top-menu\navbar\NavBar.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="62" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="51" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="10" count="62" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

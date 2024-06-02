@@ -1,0 +1,224 @@
+/* Desktop View */
+.num {
+  color: #EF8094;
+  font-size: 160px;
+  position: absolute;
+  width: 97px;
+  height: 124px;
+  left: 114px;
+  top: 101px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 180px;
+  line-height: 56px;
+}
+.number1 {
+  left: 450px;
+  top: 650px;
+}
+.number3 {
+  left: 400px;
+  top: 1500px;
+}
+.subcol-containers {
+    float: left;
+    width: 48%;
+}
+.showcase1-container {
+    background-color: white;
+    width: 100%;
+    clear: both;
+}
+.showcase-container .feature-text{
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.showcase{         
+    width: 80%;
+    margin: auto;
+    overflow: none;
+}
+.showcase1pic {
+    width: 100%;
+}
+.section-title {
+    width: 511px;
+    margin: none;
+    font-weight: 200;
+    line-height: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.section-left {
+    padding: 0px;
+    width: 391px;
+    margin: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.showcase1pic {
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    width: 324px;
+}
+.showcase1pic3 {
+  margin-left: 240px;
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1370px) { 
+  .number1 {
+    left: 430px;
+    top: 700px;
+  }
+  .number3 {
+    left: 400px;
+    top: 1500px;
+  }
+  .showcase1pic{
+    margin-right: 10px;
+    width: 300px;
+    float: right;
+  }
+  .section-title.section-title3{
+    width: 406.07px !important;
+    height: 72.31px !important; 
+  }
+}
+
+/* Tab View - 769px */
+@media only screen and (min-width: 765px) and (max-width: 980px) {
+    .number1 {
+      left: 160px;
+      top: 650px;
+    }
+    .number3 {
+      left: 120px;
+      top: 1420px;
+    }
+    .showcase1pic {
+      width: 90%;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+    .section-title {
+      width: 100%;
+      margin: auto;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 36px;
+    }
+    .section-left{
+      width: 100%;
+      padding: 20px 20px 10px 0px;
+      margin: 0px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.01em;
+      width: 311px;
+      height: 87px;
+    }
+    .feature-text {
+      margin-top: 0px;
+    }     
+}
+
+@media only screen and (min-width: 880px) and (max-width: 980px){
+  
+  .number3 {
+    left: 120px;
+    top: 1520px;
+  }
+}
+/* Mobile View - 769px */
+@media only screen and (max-width: 767px){
+
+  .number1{
+    left: 120px;
+    top: 1000px;
+    top: 1070px;
+  }
+  .number3{
+    left: 80px;
+    top: 2320px;
+  }
+  .showcase2-container div.showcase .feature-text {
+    padding-left: 0px;
+  }
+  .subcol-containers {
+        float: left;
+        width: 100%;
+  }
+  .feature-text{
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .section-title{
+    width: 100%;
+    margin: 0px;
+    line-height: 1.0em;
+    font-weight: 350;
+  }
+  .section-left {
+    width: 100%;
+    margin: 0px;
+    padding: 20px 20px 10px 0px;
+  }
+  .top-section-content{
+    width: 100%;
+    margin-top: 0px;
+  }
+  .left-container{
+    width: 80%;
+    margin: auto;
+  }
+  .top-section-content h1{
+    width: 100%;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 8px;
+    padding: 40px 0px 20px 0px;
+    margin-bottom: 0px;
+  }
+  .login-btn{
+    width: 55%;
+    margin: 3px 0px 20px 5px;
+    border: none ;
+  }
+  ul.navbar-nav li a.nav-link.login-btn{
+    width: 55%;
+    margin: 3px 0px 20px 75px;
+    border: none !important;
+  }
+  .feature-section-title{
+    width: 100%;
+  }
+  .showcase1pic{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}

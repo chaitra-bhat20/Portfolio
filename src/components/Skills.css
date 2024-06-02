@@ -1,0 +1,41 @@
+.skills-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.skills-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.skills-section {
+  margin: 20px 0;
+}
+
+.skills-section h3 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.skills-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-section li {
+  background: #e0e0e0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.skill-container {
+  width: 100%;
+}
+
+.app-container{
+  justify-content: center;
+}

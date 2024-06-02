@@ -1,3 +1,45 @@
+
+Used Technologies versions:   
+     -> react version - 12.1.1;         
+     -> Node          - 14.16.0;       
+     
+To Run:    
+     -> import the proj in IDE & open the cmd/terminal in the appropriate directory where node_modules/src available & hit below cmds.   
+     -> npm install  
+     -> npm start 
+     
+To Test & Coverage:                                     
+     -> npm test    
+     
+1) Views: Created the Upbox website in 3 different views as per given UI Figma wireframe view pixels;    
+       -> Desktop view;      
+       ->Tab view - 376px;     
+       ->Mobile view - 768px;   
+
+2) Folder/File structure:
+
+    -Created component folder under src  to store all react js files
+    -Created styles folder to store all css files (however all css files are compiled to single webpack css file, but created
+        individual css file for easy readability & easy debugging , find the css files & to fix).
+    -created asset folder to store all the images & logo under public folder.
+
+3)  TopMenu.js & navbar.js files are responsible for displaying the top menu bar
+     -> Instead of creating the static menu bar, created dynamic menu bar details using array to supply menu bar details & .map() to create each menu bar in UI template & which we can replace with api in future.
+
+4)  Footer.js  are responsible for footer template
+
+5)  HomeContainer.js is responsible for displaying courasel/gallery image & showcase steps containers.
+        Below of gallery image Instead of creating static templates for works(1,2,3)
+        created array of data & supplied data(works step deatails) which dynamically creates showcase containers instead static
+        by this we can reuse the showcase containers 
+
+6)  showcase.js , showcase1-container.js & showcase2-container.js
+        responsible for creating middle template layout to display 1,2,3 works steps.
+        created in component based structure so in future if possible to add more work steps we can use the same existing containers & just need to supply extra data/props & also in future we can replace the arraydata with api data by calling api to fetch details from backend.
+
+7) Created the website by keeping in mind i,e optimizing, dynamic, reusable, zero console errors,warings & easy to enhance in future with backend api integration  
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
